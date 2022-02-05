@@ -7,7 +7,7 @@ import twitter from './icon-twitter.svg';
 const socialMedia = [
   { siteName: 'facebook', img: facebook, link: 'https://www.facebook.com' },
   { siteName: 'twitter', img: twitter, link: 'https://www.twitter.com' },
-  { siteName: 'pintrest', img: pintrest, link: 'https://www.pintrest.com' },
+  { siteName: 'pintrest', img: pintrest, link: 'https://www.pinterest.com' },
   { siteName: 'instagram', img: instagram, link: 'https://www.instagram.com' },
 ];
 
