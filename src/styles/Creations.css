@@ -1,0 +1,31 @@
+.Creations {
+  padding: 0 24px;
+  box-sizing: border-box;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Creations__title {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.Creations__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.Creations__seeAll {
+  padding: 0.7rem 3rem;
+  background-color: white;
+  border: 1px solid black;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}

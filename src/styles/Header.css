@@ -1,0 +1,48 @@
+.Header {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	position: relative;
+}
+
+.Header__bgImage {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	object-fit: cover;
+	object-position: top;
+	z-index: -1;
+}
+
+.Header__logo {
+	position: absolute;
+	top: 40px;
+	left: 24px;
+	z-index: 1;
+}
+
+.Header__navButton {
+	position: absolute;
+	background: transparent;
+	border-style: none;
+	top: 48px;
+	right: 24px;
+	cursor: pointer;
+}
+
+.Header__bumperContainer {
+  outline: 2px solid white;
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 24px;
+}
+
+.Header__bumper {
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+  font-size: 10.8vw;
+  margin-bottom: -0.2em;
+}
