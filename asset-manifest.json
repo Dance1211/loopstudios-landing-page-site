@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/loopstudios-landing-page-site/static/css/main.ad6bfb28.css",
-    "main.js": "/loopstudios-landing-page-site/static/js/main.da70bab8.js",
+    "main.css": "/loopstudios-landing-page-site/static/css/main.f8fbb96e.css",
+    "main.js": "/loopstudios-landing-page-site/static/js/main.9a26bd79.js",
     "static/media/image-hero.jpg": "/loopstudios-landing-page-site/static/media/image-hero.9b5aacead42e955824d3.jpg",
     "static/media/image-from-above.jpg": "/loopstudios-landing-page-site/static/media/image-from-above.b7b9dba04807662c74a6.jpg",
     "static/media/image-interactive.jpg": "/loopstudios-landing-page-site/static/media/image-interactive.d6a3949b27bb7a0c79c6.jpg",
@@ -19,11 +19,11 @@
     "static/media/icon-twitter.svg": "/loopstudios-landing-page-site/static/media/icon-twitter.5dc7711ff2433b3b89ee7742a407e3bd.svg",
     "static/media/icon-facebook.svg": "/loopstudios-landing-page-site/static/media/icon-facebook.e9773e52bc64ea377cb95af7ccb6877e.svg",
     "static/media/icon-hamburger.svg": "/loopstudios-landing-page-site/static/media/icon-hamburger.5153cb809501d4309c231954bc0f9ec2.svg",
-    "main.ad6bfb28.css.map": "/loopstudios-landing-page-site/static/css/main.ad6bfb28.css.map",
-    "main.da70bab8.js.map": "/loopstudios-landing-page-site/static/js/main.da70bab8.js.map"
+    "main.f8fbb96e.css.map": "/loopstudios-landing-page-site/static/css/main.f8fbb96e.css.map",
+    "main.9a26bd79.js.map": "/loopstudios-landing-page-site/static/js/main.9a26bd79.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad6bfb28.css",
-    "static/js/main.da70bab8.js"
+    "static/css/main.f8fbb96e.css",
+    "static/js/main.9a26bd79.js"
   ]
 }
