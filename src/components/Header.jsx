@@ -18,7 +18,7 @@ function Header() {
 				<img src={hamburger} alt="Navigation Button" />
 			</button>
 			<div className="Header__bumperContainer">
-				<p className="Header__bumper">IMMERSIVE EXPERIENCES THAT DELIVER</p>
+				<p className="Header__bumper">Immersive experiences that deliver</p>
 			</div>
 		</header>
 	);

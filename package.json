@@ -1,7 +1,7 @@
 {
-  "name": "loopstudios-landing-page",
+  "name": "loopstudios-landing-page-site",
   "version": "0.1.0",
-  "homepage": "https://dance1211.github.io/loopstudios-landing-page/",
+  "homepage": "https://dance1211.github.io/loopstudios-landing-page-site/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
