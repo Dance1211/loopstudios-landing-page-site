@@ -2,6 +2,7 @@ import logo from '../images/logo.svg';
 import socialMediaArr from '../images/social_media';
 
 import '../styles/Footer.css';
+import SiteLink from './SiteLink';
 
 function Footer() {
 	return (
@@ -9,7 +10,9 @@ function Footer() {
 			<img src={logo} alt="Loopstudios logo" />
 			<Links />
 			<SocialMedia />
-      <p className="Footer__copyright">© 2022 Loopstudios. All rights reserved.</p>
+			<p className="Footer__copyright">
+				© 2022 Loopstudios. All rights reserved.
+			</p>
 		</footer>
 	);
 }
@@ -17,11 +20,11 @@ function Footer() {
 function Links() {
 	return (
 		<nav className="Footer__Links">
-			<a href="#">About</a>
-			<a href="#">Careers</a>
-			<a href="#">Events</a>
-			<a href="#">Products</a>
-			<a href="#">Support</a>
+			<SiteLink href={'#'}>About</SiteLink>
+			<SiteLink href={'#'}>Careers</SiteLink>
+			<SiteLink href={'#'}>Events</SiteLink>
+			<SiteLink href={'#'}>Products</SiteLink>
+			<SiteLink href={'#'}>Support</SiteLink>
 		</nav>
 	);
 }
@@ -31,9 +34,9 @@ function SocialMedia() {
 		<nav className="Footer__SocialMedia">
 			{socialMediaArr.map(({ siteName, img, link }) => {
 				return (
-					<a key={siteName} href={link}>
-						<img src={img} alt={siteName} />
-					</a>
+					<SiteLink key={siteName} href={link}>
+						<img className="Footer__SocialMedia__image" src={img} alt={siteName} />
+					</SiteLink>
 				);
 			})}
 		</nav>

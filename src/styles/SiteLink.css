@@ -1,0 +1,25 @@
+.SiteLink {
+  position: relative;
+  display: block;
+}
+
+.SiteLink__cover {
+  position:absolute;
+  background-color: transparent;
+  top: 100%;
+  right: 10%;
+  bottom: -6px;
+  left: 10%;
+  border-bottom: 2px solid white;
+  z-index: -0.5;
+  transition: 0.3s;
+}
+
+.SiteLink__cover--default {
+  right: 50%;
+  left: 50%;
+}
+
+.SiteLink__link {
+  z-index: 1;
+}
